@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyVersion>1.0.7257.0</AssemblyVersion>
+    <FileVersion>1.0.7257.0</FileVersion>
+    <Version>1.0.7248.5</Version>
+    <Authors>Dogus Technology DevOps Team</Authors>
+    <Company>Dogus Technology</Company>
+    <Product>DSM Orm</Product>
+    <Description>DSM Libraries - Orm Service</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/DogusTeknoloji/DSM-UI-Solution</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/DogusTeknoloji/DSM-UI-Solution/master/public/favicon.jpg</PackageIconUrl>
+    <RepositoryUrl>https://github.com/DogusTeknoloji/dsm-orm</RepositoryUrl>
+    <RepositoryType>Library</RepositoryType>
+    <PackageTags>Open APMM, Service Monitoring , Performance Monitoring</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="PlatformServices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="DSM.Core" Version="1.0.7257" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.6.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
