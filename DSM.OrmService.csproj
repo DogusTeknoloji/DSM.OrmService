@@ -10,7 +10,7 @@
     <Product>DSM Orm</Product>
     <Description>DSM Libraries - Orm Service</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/DogusTeknoloji/DSM-UI-Solution</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/DogusTeknoloji/DSM-UI-Solution/master/public/favicon.jpg</PackageIconUrl>
     <RepositoryUrl>https://github.com/DogusTeknoloji/dsm-orm</RepositoryUrl>
@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="LICENSE.txt">
+    <None Include="LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
