@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.30" />
-    <PackageReference Include="DSM.Core" Version="1.0.7257" />
+    <PackageReference Include="DSM.Core" Version="19.328.2" />
     <PackageReference Include="Microsoft.CSharp" Version="4.6.0" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
